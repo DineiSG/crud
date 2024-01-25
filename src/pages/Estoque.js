@@ -12,11 +12,6 @@ const Estoque = () => {
         {items && items.map((item)=>(
           <table>
             <tr>
-              <td>Item</td>
-              <td>Quantidade</td>
-            </tr>
-            <tr>
-              <td key={item.id}></td>
               <td>{item.name}</td>
               <td>{item.quantity}</td>
             </tr>
