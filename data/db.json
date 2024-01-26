@@ -3,67 +3,38 @@
     {
       "id": "1",
       "name": "Camisa",
-      "quantity": 10
+      "quantity": 10,
+      "code": 255
     },
     {
       "id": "2",
       "name": "Calça",
-      "quantity": 25
-    },
-    {
-      "id": "3",
-      "name": "jaqueta",
-      "quantity": 100
+      "quantity": 25,
+      "code": 145
     },
     {
       "id": "4",
       "name": "Short",
-      "quantity": 150
+      "quantity": 150,
+      "code": 55
     },
     {
       "name": "Camisa",
       "quantity": 15,
-      "id": "5"
+      "id": "5",
+      "code": 174
     },
     {
       "name": "Camisa",
       "quantity": 250,
-      "id": "6"
+      "id": "6",
+      "code": 663
     },
     {
+      "id": "2f04",
       "name": "Camisa Azul",
-      "quantity": 30,
-      "id": "8"
-    },
-    {
-      "id": "7864",
-      "name": "Camisa Azul rosa",
-      "quantity": "10"
-    },
-    {
-      "id": "aeee",
-      "name": "Camisa Verde",
-      "quantity": "100"
-    },
-    {
-      "id": "6ae4",
-      "name": "Camisa Laranja",
-      "quantity": "25"
-    },
-    {
-      "id": "dea5",
-      "name": "Camisa Azul 2",
-      "quantity": "45"
-    },
-    {
-      "id": "5b58",
-      "name": "Camisa Am",
-      "quantity": "25"
-    },
-    {
-      "id": "e5a8",
-      "name": "Camisa Branca",
-      "quantity": "55"
+      "quantity": "25",
+      "code": 589
     }
   ]
 }

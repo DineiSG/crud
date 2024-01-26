@@ -1,9 +1,10 @@
-
+import { Search } from "react-router-dom"
+import SearchForm from "../components/SearchForm"
 
 const Home = () => {
   return (
     <div>
-      
+      {<SearchForm/>}
     </div>
   )
 }
