@@ -1,4 +1,4 @@
-import EditItemForm from "../components/EditItemForm"
+
 import { useFetch } from "../hooks/useFetch"
 
 const Estoque = () => {
@@ -27,7 +27,6 @@ const Estoque = () => {
              </tbody>
           </table>
         ))}
-        {<EditItemForm/>}
     </div>
   )
 }
