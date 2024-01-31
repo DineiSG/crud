@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { useFetch } from "../hooks/useFetch"
-import './Cadastro.module.css'
+import './Cadastro.css'
 
 
 const Cadastro_Prod = () => {
@@ -36,20 +36,20 @@ const Cadastro_Prod = () => {
       
       <form onSubmit={handleSubmit}>
         <label className="descr">
-          <p>Descrição:</p>
-          <input type="text" value={name} name="name" onChange={(e)=>setName(e.target.value)} />
+          Descrição:
         </label>
+         <input type="text" value={name} name="name" onChange={(e)=>setName(e.target.value)} />
         
         <label className="quant">
-          <p>Quantidade:</p>
-          <input type="text" value={quantity} name="quantity" onChange={(e)=>setQuantity(e.target.value)}/>
+          Quantidade:
         </label>
-        
+        <input type="text" value={quantity} name="quantity" onChange={(e)=>setQuantity(e.target.value)}/>
+
         <label className="cod">
-         <p>Codigo:</p> 
-          <input type="text" value={code} name="quantity" onChange={(e)=>setCode(e.target.value)}/>
+         Codigo: 
         </label>
-        <br></br>
+        <input type="text" value={code} name="quantity" onChange={(e)=>setCode(e.target.value)}/>
+        
         {loading && <button type="submit">Cadastrar</button>}
         {error && <h1>Cadastro realizado com sucesso !</h1>}
       </form>

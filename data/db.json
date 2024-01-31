@@ -1,18 +1,6 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "Camisa",
-      "quantity": 10,
-      "code": 255
-    },
-    {
-      "id": "2",
-      "name": "Calça",
-      "quantity": 25,
-      "code": 145
-    },
-    {
       "id": "4",
       "name": "Short",
       "quantity": 150,
@@ -35,6 +23,12 @@
       "name": "Calça capri",
       "quantity": "45",
       "code": "800"
+    },
+    {
+      "id": "bf53",
+      "name": "Camisa Polo",
+      "quantity": "100",
+      "code": "485"
     }
   ]
 }

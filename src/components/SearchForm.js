@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom"
 import { useState } from "react"
+import './SearchForm.css'
 
 const SearchForm = () => {
     const navigate = useNavigate()

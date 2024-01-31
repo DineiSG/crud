@@ -1,4 +1,4 @@
-
+import './Estoque.css'
 import { useFetch } from "../hooks/useFetch"
 
 const Estoque = () => {
@@ -12,20 +12,27 @@ const Estoque = () => {
   return (
     <div>
         <h1>Estoque</h1>
-        
+            
+              
+          
         {loading && <p>Carregando dados</p>}
         {error && <p>{error}</p>}
         {items && items.map((item)=>(
-          <table key={item.id}>
-            <tbody>
-              <tr>
-              <td>Nome: {item.name} </td>
-              <td>Quantidade: {item.quantity} </td>
-              <td>Cod: {item.code} </td>
-              <td><button onClick={()=>handleRemove(item.id)}>Excluir</button></td>
-            </tr>
-             </tbody>
-          </table>
+          <ul className='items' key={item.id}>
+              <label>
+                Material:
+              </label>
+              <li className='name'>{item.name} </li>
+              <label>
+                Quantidade:
+              </label>
+              <li>{item.quantity} </li>
+              <label>
+                Código:
+              </label>
+              <li>{item.code} </li>
+              <button onClick={()=>handleRemove(item.id)}>Excluir</button>
+          </ul>
         ))}
     </div>
   )

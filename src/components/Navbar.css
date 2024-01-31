@@ -1,10 +1,12 @@
 nav{
     display:flex;
     justify-content: lefth;
-    background-color:grey;
+    background-color:rgb(3, 32, 254);
     margin:5px;
     padding: 5px;
     border-radius: 3px;
+    
+    
 }
 nav a{
     margin: 10px;
