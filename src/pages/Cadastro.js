@@ -20,16 +20,12 @@ const Cadastro_Prod = () => {
       quantity,
       code
     }
-
       httpConfig(product, "POST")
       setName("")
       setQuantity("")
       setCode("")
 
   }
-    
-
-
   return (
     <div className="add-product">
       <h1>Cadastro de Novo Item</h1>

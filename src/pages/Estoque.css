@@ -3,7 +3,8 @@ li{
     width: 100px;
     border:solid 1px;
     padding:2px 3px;
-    display:inline-block
+    display:inline-block;
+    background-color:aliceblue
 }
 button{
     margin-left: 15px;

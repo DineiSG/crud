@@ -12,23 +12,20 @@ const Estoque = () => {
   return (
     <div>
         <h1>Estoque</h1>
-            
-              
-          
         {loading && <p>Carregando dados</p>}
         {error && <p>{error}</p>}
         {items && items.map((item)=>(
           <ul className='items' key={item.id}>
               <label>
-                Material:
+                Descrição:
               </label>
               <li className='name'>{item.name} </li>
               <label>
-                Quantidade:
+                Quant.:
               </label>
               <li>{item.quantity} </li>
               <label>
-                Código:
+                Cód.:
               </label>
               <li>{item.code} </li>
               <button onClick={()=>handleRemove(item.id)}>Excluir</button>

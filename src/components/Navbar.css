@@ -1,7 +1,8 @@
 nav{
     display:flex;
     justify-content: lefth;
-    background-color:rgb(3, 32, 254);
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(158,158,158,0.6867997198879552) 0%, rgba(115,11,189,1) 50%);
     margin:5px;
     padding: 5px;
     border-radius: 3px;
