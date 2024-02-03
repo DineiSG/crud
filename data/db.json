@@ -30,5 +30,15 @@
       "quantity": "100",
       "code": "485"
     }
+  ],
+  
+  "users":[
+    {
+        "id":1,
+        "email":"teste@teste",
+        "password":"abc123",
+        "tipo":"admin"
+    }
+    
   ]
 }
